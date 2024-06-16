@@ -27,3 +27,85 @@
 
 // Do not alter below this line please... Doing so will BREAK automatic grading for your assignment!
 
+let firstName = 'Destiny';
+let age = 18;
+let isProgrammer = true;
+let canVote = age >= 18;
+let description = `Name: ${firstName}, Age: ${age}, Is Programmer: ${isProgrammer}`;
+let num1 = 1;
+let num2 = 12;
+let sum = num1 + num2;
+let option = '2';
+let decision;
+
+switch (option) {
+  case '1':
+   decision = 'Option 1 selected';
+    break;
+  case '2':
+    decision = 'Option 2 selected';
+    break;
+  case '3':
+    decision = 'Option 3 selected';
+    break;
+  default:
+   decision = 'Invalid option';
+}
+
+let isAdult = age >= 18 ? 'Adult' : 'Not Adult';
+
+export function getFirstName() {
+    return firstName;
+  }
+  
+  export function getAge() {
+    return age;
+  }
+  
+  export function getIsProgrammer() {
+    return isProgrammer;
+  }
+  
+  export function getCanVote() {
+    return canVote;
+  }
+  
+  export function getDescription() {
+    return description;
+  }
+  
+  export function getNum1() {
+    return num1;
+  }
+  
+  export function getNum2() {
+    return num2;
+  }
+  
+  export function getSum() {
+    return sum;
+  }
+  
+  export function getOption() {
+    return option;
+  }
+  
+  export function getDecision() {
+    return decision;
+  }
+  
+  export function getIsAdult() {
+    return isAdult;
+  }
+  
+console.log(`First Name: ${firstName}`); 
+console.log(`Age: ${age}`);
+console.log(`Is Programmer: ${isProgrammer}`)
+console.log(`Can Vote: ${canVote}`);
+console.log(`Description: ${description}`);
+console.log(`Num1: ${num1}`);
+console.log(`Num2: ${num2}`);
+console.log(`Sum: ${sum}`);
+console.log(`Option: ${option}`);
+console.log(`Decision: ${decision}`);
+console.log(`Is Adult: ${isAdult}`);
